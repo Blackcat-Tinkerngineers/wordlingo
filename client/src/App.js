@@ -6,8 +6,8 @@ import {
 } from "@apollo/client";
 
 import { setContext } from "@apollo/client/link/context";
-import Game from "./components/Game/Game.js";
-
+import SignupForm from "./components/SignupForm/SignupForm";
+// import Game from "./components/Game/Game";
 
 const httplink = createHttpLink({
   uri: "/graphql",
@@ -33,11 +33,10 @@ function App() {
   return (
     <ApolloProvider client={client}>
       <div className="App">
-        <header className="App-header">
-          hellow world
-        </header>
+        <header className="App-header">hellow world</header>
         <div>
-        <Game />
+          <SignupForm />
+          {/* <Game /> */}
         </div>
       </div>
     </ApolloProvider>
