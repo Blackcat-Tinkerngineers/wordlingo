@@ -6,11 +6,11 @@ import {
 } from "@apollo/client";
 
 import { setContext } from "@apollo/client/link/context";
-import SignupForm from "./pages/Signup";
 
 // import pages
+import SignupForm from "./pages/Signup";
+import Login from "./pages/Login"
 // import Profile from "./pages/Profile";
-// import Signup from "./pages/Signup";
 // import Game from "./components/Game/Game";
 
 const httplink = createHttpLink({
@@ -40,6 +40,7 @@ function App() {
         <header className="App-header">hellow world</header>
         <div>
           <SignupForm />
+          <Login />
           {/* <Game /> */}
         </div>
       </div>
