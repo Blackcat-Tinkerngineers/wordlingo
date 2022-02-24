@@ -1,0 +1,3 @@
+{
+    "mongoURI": "mongodb+srv://wordlingoers:66Py2E1rurPhn1VZ@cluster0.1ckxt.mongodb.net/wordlingoDB?retryWrites=true&w=majority"
+}
