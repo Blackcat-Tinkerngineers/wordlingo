@@ -6,7 +6,11 @@ import {
 } from "@apollo/client";
 
 import { setContext } from "@apollo/client/link/context";
-import SignupForm from "./components/SignupForm/SignupForm";
+import SignupForm from "./pages/Signup";
+
+// import pages
+// import Profile from "./pages/Profile";
+// import Signup from "./pages/Signup";
 // import Game from "./components/Game/Game";
 
 const httplink = createHttpLink({
